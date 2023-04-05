@@ -10,14 +10,95 @@
 <body>
     <h1>Contattaci</h1>
     <div class="container">
+        <h2>Text Fields</h2>
         <div class="fieldWrapper">
-            <label for="email_field">
-                email:
+            <label for="simple_text_field">
+                Simple Text Field:
             </label>
             <div class="field">
-                <input type="text" name="email" id="email_field"/>
+                <input type="text" name="simple_text" id="simple_text_field"/>
             </div>
         </div>
+
+        <div class="fieldWrapper">
+            <label for="number_field">
+                Number Field:
+            </label>
+            <div class="field">
+                <input type="number" name="simple_number" id="number_field"/>
+            </div>
+        </div>
+
+        <div class="fieldWrapper">
+            <label for="email_field">
+                Email Field:
+            </label>
+            <div class="field">
+                <input type="email" name="email" id="email_field"/>
+            </div>
+        </div>
+
+        <h2>Radio Buttons</h2>
+        <div class="fieldWrapper">
+            <div class="field flex">
+                <label for="radio_option_1">
+                   Option 1
+                </label>
+                <input type="radio" name="radiobtn_1" id="radio_option_1"/>
+            </div>
+
+            <div class="field flex">
+                <label for="radio_option_2">
+                   Option 2
+                </label>
+                <input type="radio" name="radiobtn_1" id="radio_option_2"/>
+            </div>
+        </div>
+
+
+        <h2>Checkbox</h2>
+        <div class="fieldWrapper">
+            <div class="field flex">
+                <label for="checkbox_opt_1">
+                   Option 1
+                </label>
+                <input type="checkbox" name="checkboxbtn_1" id="checkbox_opt_1"/>
+            </div>
+
+            <div class="field flex">
+                <label for="checkbox_opt_2">
+                   Option 2
+                </label>
+                <input type="checkbox" name="radiobtn_1" id="checkbox_opt_2"/>
+            </div>
+        </div>
+        
+        <h2>Select</h2>
+        <div class="fieldWrapper">
+            <label for="select_field">
+                Select:
+            </label>
+            <div class="field">
+                <select name="select" id="select_field">
+                    <option disabled selected>Scegli un'opzione...</option>
+                    <option value="1">Valore 1</option>
+                    <option value="2">Valore 2</option>
+                    <option value="3">Valore 3</option>
+                </select>
+            </div>
+        </div>
+
+
+        <h2>Textarea</h2>
+        <div class="fieldWrapper">
+            <label for="textarea_field">
+                Textarea:
+            </label>
+            <div class="field">
+                <textarea name="description" id="textarea_field"></textarea>
+            </div>
+        </div>
+
         <div class="fieldWrapper">
             <div class="field">
                 <button type="submit">INVIA</button>
